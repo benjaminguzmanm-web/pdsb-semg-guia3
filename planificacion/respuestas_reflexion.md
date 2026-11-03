@@ -1,0 +1,21 @@
+# Reflexión vinculada a la evidencia
+
+Autor responsable: Benjamin Guzman Miranda. Estas respuestas deben revisarse y comprenderse antes de la entrega.
+
+1. **Registro y prototipo.** Se analiza sEMG pública de un participante durante un protocolo de gestos. Un futuro controlador necesita datos representativos de su usuario, electrodos y condiciones reales. La matriz tactosensible mide contacto o presión/fuerza mediante otro principio. Este análisis no valida la matriz ni desempeño de una prótesis.
+
+2. **Ruta crítica y alternativa.** La ruta potencial conecta trazabilidad, calidad, tratamiento/características, ejecución, informe y publicación. El vídeo también condiciona el cierre. Ante retrasos se mantiene el alcance de caracterización y se aplazan ampliaciones. No hay holgura numérica calculada porque no se dispone de esfuerzo/disponibilidad diarios verificados.
+
+3. **Recurso y contingencia.** El registro real con metadatos es imprescindible. Está localmente y puede recuperarse de Mendeley Data v2 con atribución. Si falta memoria se lee por bloques; si un segmento no es válido se conserva marcado y se analizan ventanas válidas del mismo registro.
+
+4. **Anomalía.** CH1 mantiene exactamente 9,99969482421875 mV durante 5.231 muestras consecutivas, desde 533,3845 hasta antes de 536 s. La repetición exacta al máximo observado sostiene marcar un tramo plano compatible con recorte, pero no identifica su causa electrónica. Tras centrar esa ventana, RMS=0 describe ausencia de variación y no prueba reposo. La versión final marca tres ventanas de CH1: 1.277 de las 1.280 ventanas globales quedan aceptadas por la máscara de calidad. Las 200 filas de ventanas del protocolo nominal pasan la misma máscara.
+
+5. **Agregación y reducción de tasa.** La agregación resume variación interna y puede ocultar transitorios. Reducir tasa disminuye Nyquist y puede eliminar o plegar contenido. Deben declararse filtro antialias, tasa de salida, intervalo y limitaciones. Un resumen temporal no equivale a todas las muestras originales. La prueba final usa FIR de 161 coeficientes, Kaiser beta=8,6 y corte de 450 Hz, seguido de reducción de 2.000 a 1.000 Hz. La salida tiene Nyquist de 500 Hz y pierde contenido próximo al corte y superior. Las características principales se mantienen sobre los datos a 2.000 Hz.
+
+6. **Supuestos y atributos.** El MAT documenta 2.000 Hz y la fuente trata el registro como uniforme. No hay timestamps independientes para auditar pérdidas. Se seleccionan segmentos finitos y se declaran ventana y normalización. RMS/MAV expresan amplitud en mV. Las características de frecuencia describen distribución espectral en Hz dentro del dominio declarado. Los parámetros constan en la versión ejecutada. En CH4, reposo nominal de 6-8 s presenta RMS de 0,006438723 mV y frecuencia mediana de 109,328 Hz; agarre nominal de 56-58 s presenta 0,006523855 mV y 130,412 Hz. El RMS similar en estas dos ventanas no demuestra discriminación de gestos. La mediana del RMS de flexión nominal en cinco ciclos es 0,066918 mV; se describe variación observada sin inferir fuerza.
+
+7. **Conclusión no demostrada.** Un registro no demuestra clasificación, fuerza en newtons, diagnóstico, generalización entre participantes ni control físico de prótesis. La prueba sintética valida parte del código y no constituye hallazgo biológico.
+
+8. **Reproducción.** Los dos notebooks corregidos se ejecutaron desde la raíz del proyecto con kernels Jupyter nuevos y cero errores, según `evidencias/ejecucion_notebooks.json`. Publicación GitHub y clon remoto limpio deben completarse y verificarse antes de afirmar que otra persona puede clonar y reproducir el trabajo desde GitHub. Un ZIP o una carpeta local no demuestra ese requisito.
+
+9. **IA y verificación.** Se usó Codex para revisar código/redacción, estructurar documentos y contrastar datos. Se comprobó la coincidencia completa del CSV con el original y sus metadatos. La versión corregida se ejecutó con kernels nuevos y cero errores; se conservaron tablas y parámetros, banderas de calidad y validación sintética separada. El autor conserva responsabilidad de comprender y comprobar lo que presenta.

@@ -1,0 +1,6 @@
+campo,significado,tipo,unidad,fuente,faltantes,limitacion
+Canal_1,Canal sEMG crudo 1,float64,mV,1_raw.mat: labels[0],0,Sin asignación anatómica individual verificada
+Canal_2,Canal sEMG crudo 2,float64,mV,1_raw.mat: labels[1],0,Sin asignación anatómica individual verificada
+Canal_3,Canal sEMG crudo 3,float64,mV,1_raw.mat: labels[2],0,Sin asignación anatómica individual verificada
+Canal_4,Canal sEMG crudo 4,float64,mV,1_raw.mat: labels[3],0,Sin asignación anatómica individual verificada
+tiempo_s,Índice de muestra / fs documentada,float64 derivado,s,"fs=2000 Hz, start_sample=0 del MAT",0,No es timestamp observado; no detecta pérdidas previas a exportación

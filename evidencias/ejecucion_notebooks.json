@@ -1,0 +1,22 @@
+[
+  {
+    "notebook": "01_eda.ipynb",
+    "estado": "OK",
+    "celdas_codigo": 3,
+    "errores": 0,
+    "duracion_s": 19.11,
+    "kernel_nuevo": true,
+    "cwd": "raíz del proyecto",
+    "fecha_UTC": "2026-11-03T19:59:06.319835+00:00"
+  },
+  {
+    "notebook": "02_caracteristicas.ipynb",
+    "estado": "OK",
+    "celdas_codigo": 3,
+    "errores": 0,
+    "duracion_s": 20.97,
+    "kernel_nuevo": true,
+    "cwd": "raíz del proyecto",
+    "fecha_UTC": "2026-11-03T19:59:27.305912+00:00"
+  }
+]

@@ -1,0 +1,4 @@
+version,muestras,fs_Hz,duracion_s,desv_mV
+Original CH4 centrado,1280000,2000.0,640.0,0.018601280435573703
+Remuestreo FIR antialias x2,640000,1000.0,640.0,0.018572820748262445
+Selección cada 2 filas sin filtro (contraste),640000,1000.0,640.0,0.01860181207591489

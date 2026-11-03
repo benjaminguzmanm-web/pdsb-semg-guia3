@@ -1,0 +1,25 @@
+{
+  "python": "3.10.7",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "scipy": "1.15.3",
+  "matplotlib": "3.10.8",
+  "ventana_s": 2,
+  "solapamiento_ventanas_s": 0,
+  "welch_nperseg": 2000,
+  "welch_noverlap": 1000,
+  "welch_window": "hann periódica",
+  "welch_detrend": "constant por subsegmento",
+  "welch_scaling": "density unilateral",
+  "dominio_Hz": [
+    0,
+    1000
+  ],
+  "paso_frecuencias_welch_Hz": 1,
+  "integracion": "trapecios; mediana interpolada en potencia acumulada",
+  "filas_ventanas": 1280,
+  "filas_ventanas_validas": 1277,
+  "filas_protocolo": 200,
+  "filas_protocolo_validas": 200,
+  "nota": "RMS y MAV de señal centrada por ventana. No equivalen a fuerza. Etiquetas describen protocolo nominal."
+}

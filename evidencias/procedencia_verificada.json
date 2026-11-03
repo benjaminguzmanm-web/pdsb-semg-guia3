@@ -1,0 +1,30 @@
+{
+  "csv_original": "ckwc76xr2z-2/sEMG-dataset/raw/csv/1_raw.csv",
+  "mat_original": "ckwc76xr2z-2/sEMG-dataset/raw/mat/1_raw.mat",
+  "max_abs_diff_csv": 0.0,
+  "csv_shape": [
+    1280000,
+    4
+  ],
+  "sha256_csv_trabajo": "f0ab451b295030d2207ef75d1cb8d0079edc06597ceb34c61137ba025091791b",
+  "sha256_mat": "14b60fb5d2ed5d2863e3e22b87b15d82b2f101534854839bce087e1e6bc33e33",
+  "metadatos_mat": {
+    "fs": 2000,
+    "iD": 1,
+    "isi": 0.5,
+    "isi_units": "ms",
+    "labels": [
+      "EMG_Raw_CH1",
+      "EMG_RAW_CH2",
+      "EMG_RAW_CH3",
+      "EMG_RAW_CH4"
+    ],
+    "start_sample": 0,
+    "units": [
+      "mV",
+      "mV",
+      "mV",
+      "mV"
+    ]
+  }
+}

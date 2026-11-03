@@ -1,0 +1,16 @@
+{
+  "canal": "Canal_4",
+  "metodo": "resample_poly up=1 down=2; FIR explícito",
+  "numtaps": 161,
+  "fir_cutoff_Hz": 450,
+  "window": "Kaiser beta=8.6",
+  "padtype": "line",
+  "banda_aprox_conservada_Hz": [
+    0,
+    400
+  ],
+  "nyquist_salida_Hz": 500,
+  "atenuacion_maxima_banda_stop_desde_500_dB": -89.51188400095909,
+  "fraccion_potencia_entrada_500_1000_Hz": 0.0012231403979544358,
+  "limitacion": "Reduce contenido cercano a 450 Hz y superior. No se usa para las características principales. Bordes afectados por extensión y FIR."
+}

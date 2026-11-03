@@ -1,0 +1,17 @@
+{
+  "tipo": "SINTÉTICA: verificación de código, separada de los datos reales",
+  "fs_Hz": 2000,
+  "N": 4000,
+  "duracion_s": 2.0,
+  "f_conocida_Hz": 50.0,
+  "f_fft_Hz": 50.0,
+  "error_Hz": 0.0,
+  "amplitud_entrada_mV": 1,
+  "amplitud_fft_mV": 0.9999999999999996,
+  "delta_f_Hz": 0.5,
+  "ventana": "Hann periódica; amplitud unilateral corregida por suma de ventana, DC y Nyquist sin duplicar",
+  "prueba_alias_entrada_Hz": 700,
+  "alias_sin_filtro_Hz": 300.0,
+  "atenuacion_tono_700_dB": -104.71459284532185,
+  "pruebas_superadas": true
+}

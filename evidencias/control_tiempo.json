@@ -1,0 +1,20 @@
+{
+  "muestras_por_canal": 1280000,
+  "canales": 4,
+  "fs_documentada_Hz": 2000,
+  "Ts_s": 0.0005,
+  "duracion_soporte_s": 640.0,
+  "tiempo_ultima_muestra_s": 639.9995,
+  "marcas_tiempo_observadas": false,
+  "filas_completas_duplicadas": 13,
+  "discontinuidades_adquisicion": "No verificables: no hay timestamps independientes",
+  "uniformidad": "Documentada en metadatos; eje t=n/fs construido, no medido",
+  "regla_tramo_plano": "Valores exactamente iguales durante al menos 200 muestras (0.1 s)",
+  "regla_riel": "abs(x)>=9.999 mV; umbral exploratorio cercano al rango +/-10 mV",
+  "rango_nominal_mV": [
+    -10,
+    10
+  ],
+  "canal_principal": "Canal_4",
+  "criterio_canal": "Media próxima a cero y ausencia de tramos planos >=0.1s; no representa superioridad fisiológica"
+}

@@ -1,0 +1,2 @@
+canal,inicio_indice,fin_indice_exclusivo,inicio_s,fin_s_exclusivo,muestras,duracion_s,valor_mV,decision,hipotesis
+Canal_1,1066769,1072000,533.3845,536.0,5231,2.6155,9.99969482421875,Conservar original; marcar y excluir ventanas afectadas de resumen de actividad,"Tramo plano; posible recorte, causa física no demostrada"

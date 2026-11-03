@@ -1,0 +1,33 @@
+{
+  "informe/informe_guia3.pdf": {
+    "paginas": 8,
+    "esperadas": 8,
+    "ok": true
+  },
+  "presentacion/presentacion_guia3.pdf": {
+    "paginas": 8,
+    "esperadas": 8,
+    "ok": true
+  },
+  "planificacion/gantt.pdf": {
+    "paginas": 1,
+    "esperadas": 1,
+    "ok": true
+  },
+  "01_eda.ipynb": {
+    "celdas_codigo": 3,
+    "ejecutadas": true,
+    "errores": 0
+  },
+  "02_caracteristicas.ipynb": {
+    "celdas_codigo": 3,
+    "ejecutadas": true,
+    "errores": 0
+  },
+  "README.md": {
+    "enlaces_locales_faltantes": []
+  },
+  "informe/informe_guia3.md": {
+    "enlaces_locales_faltantes": []
+  }
+}

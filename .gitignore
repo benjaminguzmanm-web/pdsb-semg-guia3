@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+*.token
+*.key
+datos_locales/
+datos/senal_emg.csv
+*.zip
+archivo_guia2/
+reproduccion_limpia/
+*.bundle

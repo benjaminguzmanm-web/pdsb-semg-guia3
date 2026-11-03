@@ -1,0 +1,38 @@
+{
+  "tipo": "Clon limpio del repositorio LOCAL, no se presenta como clon de GitHub",
+  "origen_commit": "3aba4f6",
+  "datos": "Recuperados de 1_raw.csv en ZIP original mediante src/importar_datos.py, sin copiar CSV del proyecto",
+  "entorno": "Mismo Python local y bibliotecas fijadas; kernels nuevos, no instalación de dependencias desde cero",
+  "ejecuciones": [
+    {
+      "notebook": "01_eda.ipynb",
+      "estado": "OK",
+      "celdas_codigo": 3,
+      "errores": 0,
+      "duracion_s": 20.23,
+      "kernel_nuevo": true,
+      "cwd": "raíz del proyecto",
+      "fecha_UTC": "2026-11-03T19:48:49.278306+00:00"
+    },
+    {
+      "notebook": "02_caracteristicas.ipynb",
+      "estado": "OK",
+      "celdas_codigo": 3,
+      "errores": 0,
+      "duracion_s": 21.8,
+      "kernel_nuevo": true,
+      "cwd": "raíz del proyecto",
+      "fecha_UTC": "2026-11-03T19:49:11.096661+00:00"
+    }
+  ],
+  "comparacion_exacta_archivos_recalculados": {
+    "resumen_calidad.csv": true,
+    "anomalias.csv": true,
+    "caracteristicas_ventanas.csv": true,
+    "caracteristicas_protocolo.csv": true,
+    "comparacion_temporal.csv": true,
+    "validacion_sintetica.json": true,
+    "parametros_analisis.json": true
+  },
+  "resultado": "OK"
+}

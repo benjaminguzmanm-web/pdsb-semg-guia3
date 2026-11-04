@@ -1,0 +1,42 @@
+{
+  "repositorio": "https://github.com/benjaminguzmanm-web/pdsb-semg-guia3",
+  "commit_verificado": "b1f67197f91322acf41cfc75388d603851f7b786",
+  "fecha_UTC": "2026-11-03T22:31:04.611826+00:00",
+  "origen_clon": "GitHub público por HTTPS, no copia del repositorio local",
+  "datos": "1_raw.csv recuperado del ZIP original mediante src/importar_datos.py",
+  "sha256_numerico_datos": "0bf791c1d2d55f93b755f2f9566809cb4d36ba9888a25a26bf5c925294f926e6",
+  "entorno": "Python local y bibliotecas fijadas reutilizados; clon nuevo y kernels nuevos; no se afirma instalación en otro equipo",
+  "ejecuciones": [
+    {
+      "notebook": "01_eda.ipynb",
+      "estado": "OK",
+      "celdas_codigo": 3,
+      "errores": 0,
+      "duracion_s": 20.12,
+      "kernel_nuevo": true,
+      "cwd": "raíz del proyecto",
+      "fecha_UTC": "2026-11-03T22:29:11.737519+00:00"
+    },
+    {
+      "notebook": "02_caracteristicas.ipynb",
+      "estado": "OK",
+      "celdas_codigo": 3,
+      "errores": 0,
+      "duracion_s": 20.08,
+      "kernel_nuevo": true,
+      "cwd": "raíz del proyecto",
+      "fecha_UTC": "2026-11-03T22:29:31.834576+00:00"
+    }
+  ],
+  "comparacion_exacta_archivos_recalculados": {
+    "resumen_calidad.csv": true,
+    "anomalias.csv": true,
+    "caracteristicas_ventanas.csv": true,
+    "caracteristicas_protocolo.csv": true,
+    "comparacion_temporal.csv": true,
+    "validacion_sintetica.json": true,
+    "parametros_analisis.json": true
+  },
+  "resultado": "OK",
+  "cierre_documental": "Los cambios posteriores de estado de entrega no alteran el código ni los cálculos verificados"
+}

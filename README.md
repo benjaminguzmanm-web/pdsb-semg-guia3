@@ -16,7 +16,7 @@ El proyecto desarrolla control de calidad y características de una posible entr
 - [Notebook EDA](notebooks/01_eda.ipynb) y [notebook de características](notebooks/02_caracteristicas.ipynb), ejecutados secuencialmente.
 - [Reflexión](planificacion/respuestas_reflexion.md) y [guion para vídeo auténtico de 3-5 minutos](presentacion/guion_video.md).
 
-**Repositorio público creado:** https://github.com/benjaminguzmanm-web/pdsb-semg-guia3. **Carga de archivos:** pendiente de habilitar la escritura de la conexión. **Vídeo:** pendiente de grabación real; aún no hay archivo ni enlace. [Estado de entrega](ESTADO_ENTREGA.md) identifica las acciones que faltan. El ZIP local no sustituye el repositorio solicitado.
+**Repositorio público:** https://github.com/benjaminguzmanm-web/pdsb-semg-guia3. **Publicación y clon remoto:** verificados; evidencia en [reproduccion_github.json](evidencias/reproduccion_github.json). **Vídeo:** pendiente de grabación real; aún no hay archivo ni enlace. [Estado de entrega](ESTADO_ENTREGA.md) identifica las acciones que faltan. El ZIP local no sustituye el repositorio solicitado.
 
 ## Datos y licencia
 

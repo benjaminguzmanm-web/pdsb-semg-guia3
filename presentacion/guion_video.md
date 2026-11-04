@@ -3,7 +3,7 @@
 **Autor:** Benjamin Guzman Miranda  
 **Duración prevista:** 4 minutos, ajustable entre 3 y 5 minutos.  
 **Estado:** guion preparado. El video todavía debe grabarse a partir de una ejecución real.
-**Repositorio público creado:** https://github.com/benjaminguzmanm-web/pdsb-semg-guia3. Falta completar la publicación de archivos y comprobar el clon remoto. El repositorio existe pero todavía está vacío. La ejecución desde un clon local sí está verificada.
+**Repositorio público creado:** https://github.com/benjaminguzmanm-web/pdsb-semg-guia3. La publicación de archivos y la reproducción desde un clon remoto están verificadas al cierre. Restan el video auténtico y la revisión y entrega final.
 
 ## Preparación
 
@@ -53,7 +53,7 @@ Mostrar la PSD real, la tabla por ventanas y la prueba sintética de FFT.
 
 Mostrar las instrucciones de reproducción y los pendientes de entrega.
 
-> Los resultados describen un registro de un participante. No estiman fuerza en newtons, no validan un clasificador y no prueban la matriz táctil. El código y los documentos están verificados desde un clon local. El repositorio público existe y aún está vacío. Falta completar la publicación de archivos y comprobar el clon remoto, enlazar esta grabación auténtica desde el README y revisar la entrega. Declaro el apoyo de inteligencia artificial en la organización, el código y la revisión, junto con las comprobaciones realizadas.
+> Los resultados describen un registro de un participante. No estiman fuerza en newtons, no validan un clasificador y no prueban la matriz táctil. El código y los documentos están publicados en el repositorio público y el flujo se comprobó desde un clon remoto. Falta enlazar esta grabación auténtica desde el README y revisar y realizar la entrega final. Declaro el apoyo de inteligencia artificial en la organización, el código y la revisión, junto con las comprobaciones realizadas.
 
 ## Comprobación antes de entregar el video
 

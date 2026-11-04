@@ -35,7 +35,7 @@ La matriz tactosensible de la tesis registra contacto o presión. La sEMG mide v
 
 **Figura 1.** Gantt editable en CSV y exportado. El intervalo 22-10 a 03-11 fue indicado por el estudiante. La distribución por tarea es una reconstrucción de planificación, no una bitácora diaria verificada. La entrega oficial es el 04-11 [1].
 
-La ruta principal enlaza procedencia, calidad, características, reproducción e informe. Recursos y factibilidad pueden revisarse en paralelo. Las holguras son de planificación, no mediciones históricas. GitHub, vídeo y entrega institucional necesitan evidencia adicional; no se marcan terminados por haber llegado a la fecha prevista.
+La ruta principal enlaza procedencia, calidad, características, reproducción e informe. Recursos y factibilidad pueden revisarse en paralelo. Las holguras son de planificación, no mediciones históricas. GitHub y su clon remoto están verificados. Vídeo y entrega institucional requieren evidencia adicional; el avance corresponde a productos comprobados.
 
 
 ---
@@ -51,7 +51,7 @@ La modalidad con datos públicos permite evaluar el flujo computacional sin comp
 | Software | NumPy, Pandas, SciPy y Matplotlib; versiones registradas | Reconstruir entorno con requirements.txt |
 | Datos | Registro público 1_raw, metadatos MAT y protocolo | Recuperar versión 2 y verificar huella numérica |
 | Almacenamiento | CSV local de 84,9 MB; ZIP fuente de 4,38 GB | Importar solo 1_raw.csv, sin expandir todo el ZIP |
-| GitHub y vídeo | Publicación y grabación pendientes al cierre local | Completar tras revisar el paquete y comprobar acceso |
+| GitHub y vídeo | Repositorio publicado y reproducido; grabación pendiente | Grabar la demostración real e incorporar su enlace |
 
 ### Cotejo del registro utilizado
 
@@ -162,9 +162,9 @@ La flexión nominal presenta mediana RMS AC de 0,066918 mV (rango 0,059132-0,082
 
 **Limitaciones.** Se analiza un participante. Las tareas proceden del protocolo nominal; no hay vídeo cinemático ni fuerza sincronizada. El mapa muscular individual no está confirmado. Los canales presentan niveles medios distintos y el CH1 una meseta. La máscara es conservadora. El tiempo se deriva de metadatos. La reducción de tasa modifica banda y bordes. Estas condiciones limitan extrapolar a una prótesis y no validan la matriz táctil.
 
-**Reproducción.** El repositorio mantiene código y datos separados, parámetros, huellas, tablas y dos notebooks. Una copia nueva local, con datos recuperados del ZIP original, ejecutó ambos cuadernos sin errores y reprodujo exactamente las tablas principales. Se reutilizó el entorno Python verificado; no se afirma instalación nueva de dependencias. El importador comprueba la versión numérica exacta.
+**Reproducción.** El repositorio mantiene código y datos separados, parámetros, huellas, tablas y dos notebooks. Una copia nueva descargada desde GitHub, con datos recuperados del ZIP original, ejecutó ambos cuadernos sin errores y reprodujo exactamente las tablas principales. Se reutilizó el entorno Python verificado; no se afirma instalación nueva de dependencias. El importador comprueba la versión numérica exacta.
 
-**Repositorio público.** github.com/benjaminguzmanm-web/pdsb-semg-guia3. El estado de publicación y del clon remoto se documenta en ESTADO_ENTREGA.md. Antes de la entrega institucional faltan revisión del estudiante y vídeo real de 3-5 minutos. Para continuidad: verificar correspondencia anatómica, evaluar otros participantes y definir un protocolo independiente para la matriz de presión, sin anticipar desempeño clasificador.
+**Repositorio público.** github.com/benjaminguzmanm-web/pdsb-semg-guia3. La publicación y la reproducción del clon remoto constan en evidencias/reproduccion_github.json. Antes de la entrega institucional faltan revisión del estudiante y vídeo real de 3-5 minutos. Para continuidad: verificar correspondencia anatómica, evaluar otros participantes y definir un protocolo independiente para la matriz de presión, sin anticipar desempeño clasificador.
 
 ### Uso de asistencia de IA
 
@@ -197,6 +197,6 @@ Codex/ChatGPT apoyó revisión de código, organización, comprobaciones y redac
 | Características y validación | notebooks/02_caracteristicas.ipynb; evidencias/caracteristicas_ventanas.csv; validacion_sintetica.json |
 | Planificación editable | planificacion/gantt.csv; hitos.csv; materiales.csv; factibilidad.md; riesgos.md |
 | Presentación y demostración | presentacion/presentacion_guia3.pdf; guion_video.md |
-| Reproducción y estado de entrega | README.md; requirements.txt; evidencias/ejecucion_notebooks.json; ESTADO_ENTREGA.md |
+| Reproducción y estado de entrega | README.md; requirements.txt; evidencias/reproduccion_github.json; ESTADO_ENTREGA.md |
 
 Las fechas por tarea del Gantt no se presentan como registro contemporáneo de horas ni como historial Git. El historial local conserva las revisiones efectivas desde su creación. La publicación y la grabación pendiente se declaran en el estado de entrega.

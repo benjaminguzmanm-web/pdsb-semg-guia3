@@ -1,19 +1,15 @@
-# Publicación pendiente
+# Repositorio y actualizaciones
 
-Repositorio público creado con autorización del estudiante: https://github.com/benjaminguzmanm-web/pdsb-semg-guia3.
+Repositorio público: https://github.com/benjaminguzmanm-web/pdsb-semg-guia3.
 
-Durante la preparación, GitHub rechazó la escritura de la conexión con `403 Resource not accessible by integration`. La autenticación Git local también fue rechazada. Ningún archivo se presentó como publicado sin verificarlo.
+La publicación incluye el análisis, los notebooks ejecutados, la planificación, las figuras, el informe y la presentación. La versión descargada desde GitHub se ejecutó con kernels nuevos y reprodujo las tablas principales. El detalle está en `evidencias/reproduccion_github.json`.
 
-## Continuar con la conexión
+## Consultar y reproducir
 
-En GitHub, revisar **Settings > Applications > Installed GitHub Apps > Configure** para la conexión de ChatGPT/Codex. Comprobar acceso al repositorio `pdsb-semg-guia3` y permisos de escritura. [Instrucciones oficiales](https://docs.github.com/en/apps/using-github-apps/reviewing-and-modifying-installed-github-apps).
+Abrir el README del repositorio y seguir sus enlaces. Para descargar sin usar Git, elegir **Code > Download ZIP** en GitHub y descomprimir. Los datos grandes se recuperan siguiendo `datos/README.md`; no forman parte del historial remoto.
 
-Una vez habilitado el acceso, se puede completar la subida y verificar un clon desde GitHub. El estado vigente se registra en `ESTADO_ENTREGA.md`.
+La carpeta local `PDSB_Guia3_para_GitHub` contiene los archivos publicables de la misma versión, sin el CSV grande ni el historial interno. Las actualizaciones deben conservar esta estructura y registrarse con commits descriptivos.
 
-## Alternativa mediante el navegador
+## Cierre de entrega
 
-Se preparó una carpeta de publicación `PDSB_Guia3_para_GitHub`, junto a la carpeta principal del trabajo. Contiene solo los archivos para el repositorio, con su jerarquía, y excluye el CSV grande y los archivos internos de Git.
-
-En la página de carga de GitHub, arrastrar **el contenido** de esa carpeta, conservando las subcarpetas, y registrar un commit descriptivo. Verificar que README.md, src/, notebooks/, datos/, evidencias/, figuras/, planificacion/, informe/ y presentacion/ aparezcan en la raíz del repositorio. El CSV se recupera según `datos/README.md`.
-
-Finalmente, comprobar el clon remoto, grabar la demostración auténtica de 3-5 minutos, añadir el vídeo o su enlace al README y entregar el enlace del repositorio por el canal del docente.
+Benjamin debe revisar el método y sus resultados, grabar la demostración auténtica de 3-5 minutos y añadir el vídeo o su enlace al README. Después corresponde entregar el enlace del repositorio por el canal indicado por el docente. `ESTADO_ENTREGA.md` mantiene el estado de cada producto.

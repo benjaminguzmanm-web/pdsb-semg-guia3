@@ -1,0 +1,22 @@
+{
+  "origen_publico": "https://data.mendeley.com/datasets/ckwc76xr2z/2",
+  "registro": "sEMG-dataset/raw/csv/1_raw.csv",
+  "participante_anonimo_dataset": 1,
+  "licencia": "CC BY 4.0",
+  "datos_adquiridos_del_estudiante": false,
+  "columnas": [
+    "tiempo_s",
+    "amplitud_mV"
+  ],
+  "filas": 300,
+  "rango_tiempo_s": [
+    56.0,
+    56.1495
+  ],
+  "transformacion": "CH4 crudo del dataset público menos su media global",
+  "diferencia_maxima_tiempo": 0.0,
+  "diferencia_maxima_amplitud_mV": 9.367506770274758e-17,
+  "sha256_csv_fuente_trabajo": "f0ab451b295030d2207ef75d1cb8d0079edc06597ceb34c61137ba025091791b",
+  "identificadores_personales_en_tabla": false,
+  "evidencia_cotejo_completo_original": "evidencias/procedencia_verificada.json"
+}

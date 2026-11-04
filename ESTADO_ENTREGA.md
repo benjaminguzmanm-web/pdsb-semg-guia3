@@ -17,7 +17,8 @@ Este archivo distingue productos locales de acciones externas. La existencia de 
 | Revisión del estudiante | Debe leer los resultados y poder explicar las decisiones y el uso de IA |
 | Vídeo auténtico | Pendiente. Guion y demostración propuestos en presentacion/guion_video.md |
 | Clon limpio local | Verificado: datos recuperados del original, dos kernels nuevos sin errores y tablas idénticas; evidencias/reproduccion_clon_local.json |
-| GitHub remoto | Repositorio público creado: https://github.com/benjaminguzmanm-web/pdsb-semg-guia3. La carga de archivos sigue pendiente: la conexión devuelve 403 al escribir y la autenticación Git local es inválida |
-| Clon desde GitHub y entrega institucional | Pendientes hasta completar la publicación de archivos y el vídeo/enlace |
+| GitHub remoto | Publicado con historial de commits: https://github.com/benjaminguzmanm-web/pdsb-semg-guia3 |
+| Clon desde GitHub | Verificado: descarga pública, recuperación del registro original, dos kernels nuevos sin errores y tablas reproducidas; evidencias/reproduccion_github.json |
+| Entrega institucional | Pendiente de revisión del estudiante y de incorporar el vídeo auténtico o su enlace |
 
 El periodo 22-10 a 03-11-2026 fue indicado por el estudiante. Las fechas internas del Gantt son una reconstrucción de planificación y no se presentan como un registro diario verificado.

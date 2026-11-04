@@ -26,7 +26,7 @@ El resultado actual contiene 1.280 ventanas de dos segundos: 1.277 aceptadas por
 
 T08 tiene informe y presentación revisados visualmente; el Gantt está exportado desde su CSV actualizado. H06 permanece incompleto mientras no exista vídeo auténtico, aun cuando los PDFs estén terminados.
 
-El repositorio público ya fue creado. T10 está al 50 %: hay repositorio e historial local verificables, pero faltan la carga y el clon remoto. GitHub rechaza la escritura de la conexión (403). El clon local limpio se verificó; no se presenta como clon remoto. Vídeo y entrega siguen pendientes. T09 y T11 no cambian por la mera existencia de archivos locales. Benjamin debe revisar y comprender los resultados antes de presentarlos, sin que esa revisión personal se confunda con el estado de los archivos.
+T10 está al 100 %: el repositorio público contiene los archivos y commits; una copia descargada desde GitHub recuperó el registro original y ejecutó los dos notebooks sin errores, reproduciendo las tablas principales. La evidencia está en `evidencias/reproduccion_github.json`. Vídeo y entrega siguen pendientes. Benjamin debe revisar y comprender los resultados antes de presentarlos; esa revisión personal se distingue del estado verificado de los archivos.
 
 ## Rutina de revisión
 
